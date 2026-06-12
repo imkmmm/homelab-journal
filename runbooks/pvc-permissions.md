@@ -23,13 +23,13 @@ as non-root) cannot `chown` them.
 
 ```bash
 # Scale to zero to release the volume
-kubectl scale deployment &lt;name&gt; -n &lt;namespace&gt; --replicas=0
+kubectl scale deployment <name> -n <namespace> --replicas=0
 
 # Delete the PVC
-kubectl delete pvc &lt;pvc-name&gt; -n &lt;namespace&gt;
+kubectl delete pvc <pvc-name> -n <namespace>
 
 # Let Helm recreate fresh
-kubectl scale deployment &lt;name&gt; -n &lt;namespace&gt; --replicas=1
+kubectl scale deployment <name> -n <namespace> --replicas=1
 ```
 
 
