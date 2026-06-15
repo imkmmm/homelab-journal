@@ -11,7 +11,7 @@ constraints.
 ## Why This Exists
 
 I already run Immich, Minecraft, Grafana, and ArgoCD in production at home.
-This repo documents the incidents—not the manifests. The infrastructure
+This repo documents the incidents not the manifests. The infrastructure
 code lives in a private repo. The lesson lives here
 
 ## Principles
