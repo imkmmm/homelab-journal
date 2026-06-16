@@ -30,6 +30,11 @@ code lives in a private repo. The lesson lives here
 | 2026-05-08 | ArgoCD Server Args Array Destruction | high | gitops |
 | 2026-05-09 | Grafana PVC Permission Denial | medium | storage |
 | 2026-05-10 | NGINX Rate Limit Annotation Confusion | low | security |
+| 2026-06-01 | NFS-Common Missing on Worker Nodes | high | storage |
+| 2026-06-01 | Bitnami Redis Tag Deletion | medium | supply-chain |
+| 2026-06-02 | Immich v1→v2 Upgrade + AVX2 Failure | high | application |
+| 2026-06-02 | Ingress Missing ingressClassName | medium | networking |
+| 2026-06-02 | Cloudflare Bot Fight Mode Mobile Block | low | security |
 
 ## Architecture Decisions
 
